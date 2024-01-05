@@ -18,6 +18,20 @@ body {
     cursor: pointer;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav style */
 
 nav {
@@ -89,4 +103,12 @@ nav a {
 
 .banner-content {
     max-width: 600px;
+}
+
+/* main section styles */
+/* about section */
+.about {
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0;
 }
