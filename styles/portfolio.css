@@ -72,7 +72,7 @@ nav a {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: right bottom, top left;
-    background-size: 700px, 95px;
+    background-size: 700px, 80px;
 
 }
 
@@ -216,7 +216,7 @@ main section {
 /* font awesome use */
 .download::before {
     content: '\f019';
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     font-weight: 900;
     margin-right: 7px;
 }
