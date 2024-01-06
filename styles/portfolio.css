@@ -69,10 +69,10 @@ nav a {
 /* header related Styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 700px;
+    background-position: right bottom, top left;
+    background-size: 700px, 95px;
 
 }
 
@@ -211,6 +211,14 @@ main section {
 .download-cv {
     text-align: center;
     margin-top: 70px;
+}
+
+/* font awesome use */
+.download::before {
+    content: '\f019';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 7px;
 }
 
 /* footer style */
