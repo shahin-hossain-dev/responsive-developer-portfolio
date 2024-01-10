@@ -3,6 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -107,7 +109,7 @@ nav a {
 
 /* main section styles */
 main {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -249,4 +251,20 @@ textarea {
 
 .social-link {
     margin-right: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+/* responsive for mobile  */
+@media screen and (max-width: 576px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    #what-i-do-description {
+        margin: 30px 0px;
+        padding: 20px;
+    }
 }
