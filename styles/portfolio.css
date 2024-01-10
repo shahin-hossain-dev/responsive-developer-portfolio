@@ -241,7 +241,7 @@ main section {
 input[type="email"],
 textarea {
     display: block;
-    margin: 24px 0;
+    margin: 24px auto;
     font-size: 16px;
     padding: 18px 30px;
     border: 0;
@@ -259,12 +259,49 @@ textarea {
 
 /* responsive for mobile  */
 @media screen and (max-width: 576px) {
-    .skills-container {
+
+    .skills-container,
+    .resume-container {
         flex-direction: column;
     }
 
     #what-i-do-description {
         margin: 30px 0px;
         padding: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        padding: 50px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        /* padding: 18px 10px; */
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .skills-container,
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 80%;
     }
 }
